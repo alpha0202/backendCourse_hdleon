@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\controllers\\beercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\models\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\models\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\validators\\beerupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\dtos\\beerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\dtos\\beerupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\dtos\\beerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\dtos\\beerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\dtos\\beerinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\dtos\\beerinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\models\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\models\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|c:\\users\\ideapad 3\\source\\repos\\backendcourse\\backendcourse\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31357829-BDC1-48F8-9124-B19A9C0DFA81}|BackendCourse\\BackendCourse.csproj|solutionrelative:backendcourse\\validators\\beerinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,14 +59,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Beer.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Models\\Beer.cs",
-              "RelativeDocumentMoniker": "BackendCourse\\Models\\Beer.cs",
-              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Models\\Beer.cs",
-              "RelativeToolTip": "BackendCourse\\Models\\Beer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "BeerUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Validators\\BeerUpdateValidator.cs",
+              "RelativeDocumentMoniker": "BackendCourse\\Validators\\BeerUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Validators\\BeerUpdateValidator.cs",
+              "RelativeToolTip": "BackendCourse\\Validators\\BeerUpdateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T03:00:48.654Z",
+              "WhenOpened": "2025-01-02T03:11:35.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeerInsertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Validators\\BeerInsertValidator.cs",
+              "RelativeDocumentMoniker": "BackendCourse\\Validators\\BeerInsertValidator.cs",
+              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Validators\\BeerInsertValidator.cs",
+              "RelativeToolTip": "BackendCourse\\Validators\\BeerInsertValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T02:05:07.203Z",
               "EditorCaption": ""
             },
             {
@@ -85,61 +90,22 @@
               "RelativeDocumentMoniker": "BackendCourse\\Controllers\\BeerController.cs",
               "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Controllers\\BeerController.cs",
               "RelativeToolTip": "BackendCourse\\Controllers\\BeerController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAwwG0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:56:53.293Z",
+              "WhenOpened": "2025-01-02T02:56:26.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BeerUpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerUpdateDTO.cs",
-              "RelativeDocumentMoniker": "BackendCourse\\DTOs\\BeerUpdateDTO.cs",
-              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerUpdateDTO.cs",
-              "RelativeToolTip": "BackendCourse\\DTOs\\BeerUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Program.cs",
+              "RelativeDocumentMoniker": "BackendCourse\\Program.cs",
+              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Program.cs",
+              "RelativeToolTip": "BackendCourse\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:53:44.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BeerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerDTO.cs",
-              "RelativeDocumentMoniker": "BackendCourse\\DTOs\\BeerDTO.cs",
-              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerDTO.cs",
-              "RelativeToolTip": "BackendCourse\\DTOs\\BeerDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:53:03.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BeerInsertDTO.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerInsertDTO.cs",
-              "RelativeDocumentMoniker": "BackendCourse\\DTOs\\BeerInsertDTO.cs",
-              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\DTOs\\BeerInsertDTO.cs",
-              "RelativeToolTip": "BackendCourse\\DTOs\\BeerInsertDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:52:48.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Models\\StoreContext.cs",
-              "RelativeDocumentMoniker": "BackendCourse\\Models\\StoreContext.cs",
-              "ToolTip": "C:\\Users\\IdeaPad 3\\source\\repos\\BackendCourse\\BackendCourse\\Models\\StoreContext.cs",
-              "RelativeToolTip": "BackendCourse\\Models\\StoreContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T01:24:45.554Z",
+              "WhenOpened": "2025-01-02T02:07:22.875Z",
               "EditorCaption": ""
             }
           ]

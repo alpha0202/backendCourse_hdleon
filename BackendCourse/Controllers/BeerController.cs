@@ -1,5 +1,6 @@
 ﻿using BackendCourse.DTOs;
 using BackendCourse.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,17 @@ namespace BackendCourse.Controllers
     public class BeerController : ControllerBase
     {
         private readonly StoreContext _storeContext;
+        private readonly IValidator<BeerInsertDTO> _beerInsertValidator;
+        private readonly IValidator<BeerUpdateDTO> _beerUpdateValidator;
 
-        public BeerController(StoreContext storeContext)
+        public BeerController(StoreContext storeContext, 
+                              IValidator<BeerInsertDTO> beerInsertValidator, 
+                              IValidator<BeerUpdateDTO> beerUpdateValidator)
+
         {
             _storeContext = storeContext;
+            _beerInsertValidator = beerInsertValidator;
+            _beerUpdateValidator = beerUpdateValidator;
         }
 
 
@@ -60,6 +68,13 @@ namespace BackendCourse.Controllers
 
         public async Task<ActionResult<BeerDTO>> Add(BeerInsertDTO beerInsertDTO)
         {
+            var validationResult = await _beerInsertValidator.ValidateAsync(beerInsertDTO);
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
             var beer = new Beer()
             {
                 Name = beerInsertDTO.Name,
@@ -87,6 +102,15 @@ namespace BackendCourse.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<BeerDTO>> Update(int id, BeerUpdateDTO updateDTO)
         {
+
+            var validationResult = await _beerUpdateValidator.ValidateAsync(updateDTO);
+
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
             var beer = await _storeContext.Beers.FindAsync(id);
 
             if (beer is null)
