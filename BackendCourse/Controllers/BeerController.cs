@@ -137,7 +137,7 @@ namespace BackendCourse.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(int id)
+        public async Task<ActionResult<BeerDTO>> Delete(int id)
         {
             var beer = await _storeContext.Beers.FindAsync(id);
 
@@ -149,7 +149,15 @@ namespace BackendCourse.Controllers
             _storeContext.Beers.Remove(beer);
             await _storeContext.SaveChangesAsync();
 
-            return NoContent();
+            var beerDto = new BeerDTO
+            {
+                Id = beer.BeerId,
+                Name = beer.Name,
+                Alcohol = beer.Alcohol,
+                BrandId = beer.BrandId
+            };
+
+            return Ok(beerDto); ;
 
         }
 
