@@ -1,5 +1,6 @@
 using BackendCourse.DTOs;
 using BackendCourse.Models;
+using BackendCourse.Repository;
 using BackendCourse.Services;
 using BackendCourse.Validators;
 using FluentValidation;
@@ -15,6 +16,11 @@ builder.Services.AddKeyedScoped<IRandomService, RandomService>("randomScoped");
 builder.Services.AddKeyedTransient<IRandomService, RandomService>("randomTransinet");
 
 builder.Services.AddScoped<IPostService, PostService>();
+//builder.Services.AddScoped<ICommonService, BeerServices>();
+builder.Services.AddKeyedScoped<ICommonService<BeerDTO, BeerInsertDTO, BeerUpdateDTO>, BeerServices>("beerService");
+
+//Repository
+builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
 
 //httpclient 
 builder.Services.AddHttpClient<IPostService, PostService>(c =>
