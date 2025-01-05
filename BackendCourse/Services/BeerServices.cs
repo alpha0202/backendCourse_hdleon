@@ -12,11 +12,14 @@ namespace BackendCourse.Services
         private readonly IRepository<Beer> _beerRepository;
         private readonly IMapper _mapper;
 
+        public List<string> Errors { get; }
+
         public BeerServices(IRepository<Beer> beerRepository, IMapper mapper)
         {
 
             _beerRepository = beerRepository;
             _mapper = mapper;
+            Errors = new List<string>();
         }
 
         public async Task<IEnumerable<BeerDTO>> Get()
@@ -98,6 +101,28 @@ namespace BackendCourse.Services
 
             return null;
 
+        }
+
+        public bool Validate(BeerInsertDTO beerInsertDTO)
+        {
+            if (_beerRepository.Search(b=> b.Name == beerInsertDTO.Name).Count() > 0)
+            {
+                Errors.Add("No puede existir una cerveza con un nombre ya existente.");
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool Validate(BeerUpdateDTO beerUpdateDTO)
+        {
+            if (_beerRepository.Search(b => b.Name == beerUpdateDTO.Name && beerUpdateDTO.Id != b.BeerId).Count() > 0)
+            {
+                Errors.Add("No puede existir una cerveza con un nombre ya existente.");
+                return false;
+            }
+
+            return true;
         }
     }
 }

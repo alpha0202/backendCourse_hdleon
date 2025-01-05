@@ -1,4 +1,6 @@
-﻿namespace BackendCourse.Repository
+﻿using BackendCourse.Models;
+
+namespace BackendCourse.Repository
 {
     public interface IRepository<TEntity>
     {
@@ -9,6 +11,6 @@
         void Update(TEntity entity);
         void Delete(TEntity entity);
         Task Save();
-
+        IEnumerable<TEntity> Search(Func<TEntity, bool> filter);
     }
 }
